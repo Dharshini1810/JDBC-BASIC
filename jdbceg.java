@@ -77,6 +77,9 @@ public class jdbceg{
                 String name2=sc.next();
                 stmt.execute("DROP table "+name2);   
                 System.out.println("Table has been deleted successfully!!");  
+                break;
+            default:
+                System.out.print("Invalid Choice!");    
         }        
     }
 }
